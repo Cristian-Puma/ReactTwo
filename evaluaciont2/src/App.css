@@ -1,0 +1,79 @@
+/* Estilos generales para la aplicación */
+.App {
+  text-align: center;
+  margin: 0 auto; /* Esto centra el contenido y deja espacio a los lados */
+  max-width: 1200px; /* Ajusta el ancho máximo del contenido */
+  padding: 0 20px; /* Añade espacio adicional a los lados dentro del contenedor */
+  box-sizing: border-box;
+}
+
+/* Estilos generales para la cabecera */
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 251, 243);
+  padding: 10px 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Contenedor para el título y el menú */
+.App-header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilos para el título */
+.App-title {
+  font-size: 1.5rem;
+  margin-right: 40px;
+  color: rgb(255, 171, 15);
+}
+
+/* Estilos para el menú */
+.App-menu {
+  margin-right: 40px ;
+  text-align: right;
+  color: black;
+}
+
+/* Estilos para la lista del menú */
+.App-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+/* Estilos para los elementos del menú */
+.App-menu li {
+  margin-right: 10px;
+}
+
+/* Estilos para los enlaces del menú */
+.App-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.imagen-cards-container {
+  display: flex;
+  justify-content: space-between; /* Espacio igual entre las tarjetas */
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten a nuevas líneas si es necesario */
+  gap: 20px; /* Espacio entre tarjetas */
+  padding: 20px;
+}
+
+/* Estilos para el pie de página */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}

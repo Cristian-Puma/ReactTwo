@@ -1,0 +1,33 @@
+/* Estilos para la sección Colección */
+.coleccion-section {
+    padding: 0 30px; /* Espacio a los costados del contenedor dentro del componente */
+  }
+  
+  /* Contenedor para el contenido de la sección */
+  .coleccion-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+  }
+  
+  /* Estilos para el título de la sección */
+  .coleccion-title {
+    font-size: 2.3rem;
+    margin: 0;
+    color: rgb(248, 164, 7) /* Color para "Colección" */
+  }
+  
+  /* Estilos para el subtítulo de la sección */
+  .coleccion-subtitle {
+    font-size: 2.2rem;
+    margin: 0;
+    color: rgb(14, 9, 0); /* Color para "INVIERNO" */
+  }
+  
+  /* Estilos para el texto alineado a la derecha */
+  .coleccion-text {
+    font-size: 1rem;
+    margin: 0;
+    text-align: right; /* Alinea el texto a la derecha */
+  }
+  

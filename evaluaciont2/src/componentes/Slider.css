@@ -1,0 +1,13 @@
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .slider-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

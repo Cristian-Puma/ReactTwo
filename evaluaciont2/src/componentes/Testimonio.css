@@ -1,0 +1,84 @@
+/* Estilos para el contenedor de testimonios */
+.testimonio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* Estilos para el contenido del testimonio */
+  .testimonio-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Estilos para la imagen del testimonio */
+  .testimonio-imagen {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el texto del testimonio */
+  .testimonio-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  /* Estilos para el título del testimonio */
+  .testimonio-text h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  /* Estilos para el párrafo */
+  .testimonio-text p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Estilos para las flechas de navegación */
+  .testimonio-arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Posiciona la flecha izquierda */
+  .testimonio-arrow.prev {
+    left: 10px;
+  }
+  
+  /* Posiciona la flecha derecha */
+  .testimonio-arrow.next {
+    right: 10px;
+  }
+  
+  .testimonio-arrow:hover {
+    color: #666;
+  }
+  
+  /* Estilo para el contenedor cuando se hace clic en las flechas */
+  .testimonio-container button:focus {
+    outline: none;
+  }
+  h3{
+    color: rgb(240, 162, 17);
+  }
+  
