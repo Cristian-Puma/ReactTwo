@@ -1,5 +1,13 @@
-/* Estilos para cada tarjeta de imagen */
-.imagen-card {
+/* Contenedor de las tarjetas de imagen */
+.imagen-cards-container {
+    display: flex; /* Alinea las tarjetas horizontalmente */
+    justify-content: space-between; /* Distribuye el espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no hay suficiente espacio en una fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  /* Estilos para cada tarjeta de imagen */
+  .imagen-card {
     border: 3px solid orange;
     border-radius: 8px;
     overflow: hidden;
